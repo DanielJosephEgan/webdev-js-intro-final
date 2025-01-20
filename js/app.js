@@ -26,6 +26,10 @@ function displayGuess(){
   document.getElementById("current-guess").innerText = guess;
 }
 
+function computerGuess(){
+  document.getElementById("computer-guess").innerText = randomNumber;
+}
+
 
 // <h1>Enter a number</h1>
 // <input type="number" id="inputNumber" placeholder="Enter a number">
@@ -52,6 +56,7 @@ function displayGuess(){
 function render(){
   numberGuessed();
   displayGuess();
+  computerGuess();
 }
 
 
